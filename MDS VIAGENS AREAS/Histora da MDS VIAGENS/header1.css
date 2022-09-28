@@ -1,0 +1,42 @@
+.logo{
+    display: flex;
+}
+
+.fundo{
+    width: 70px;
+    height: 70px;
+    position: relative;
+    left: 20px;
+}
+
+
+.logo-texto{
+    font-size: 23px;
+    position: relative;
+    left: 30px;
+}
+
+.navegador-lista{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1rem;
+    margin: 1px;
+}
+
+.navegador-lista li{
+    list-style-type: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    background-color: rgba(17, 17, 233, 0.925);
+    border: 1px solid rgba(17, 17, 233, 0.925);
+    color: white;
+    border-radius: 15px 15px 0 0;
+}
+
+.navegador-lista li:hover{
+    color: white;
+    background-color: rgb(26, 26, 138);
+    border: rgb(26, 26, 138);
+}
